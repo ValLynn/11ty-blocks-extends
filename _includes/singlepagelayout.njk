@@ -1,0 +1,28 @@
+{% include '_pagehead.njk' %}
+
+{% include '_pagenav.njk' %}
+
+{% include '_pageheader.njk' %}
+
+
+<!-- begin HTML5 main  --> 
+<main>     
+
+
+  <div id="intro">
+    {% block introduction %} {% endblock %}
+  </div>
+  <!--  end intro  -->
+
+  <div id="maincontent">
+    {% block maincontenttext %} {% endblock %}
+  </div>
+  <!--  end maincontent  -->
+
+
+
+</main>
+<!--  main  -->
+    
+
+{% include '_pagefooter.njk' %}
